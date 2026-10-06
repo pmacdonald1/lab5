@@ -11,8 +11,7 @@ using namespace std;
 
 void printInputValidationError()
 {
-    cout << "Error: The max digit must be greater than 4 and less than 10. "
-         << "Please try again." << endl;
+    cout << "Error: The max digit must be greater than 4 and less than 10. " << "Please try again." << endl;
 }
 
 bool isMaxDigitInputValid(int input)
@@ -24,8 +23,7 @@ int getMaxDigitInput()
 {
     int maxDigit;
 
-    cout << "Please enter the maximum digit for the multiplication table."
-         << endl;
+    cout << "Please enter the maximum digit for the multiplication table." << endl;
     cout << "The digit must be greater than 4 and less than 10" << endl;
     cout << "Max Digit: ";
     cin >> maxDigit;
